@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <h5 class="text-center mt-5">Try and guess the random number between 1 to 100</h5>
+                <p class="text-center text-muted">You have 10 attempts to guess the right number</p>
+
+                <form action="">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- <div class="col-sm-4 col-lg-4"></div> -->
+                            <div class="col-sm-12 ">
+                                <img src="images/boy-thinking.gif" class="img-fluid mx-auto d-block" id="img" alt="">
+
+                            </div>
+                            <!-- <div class="col-sm-4 col-lg-4"></div> -->
+                        </div>
+                    </div>
+                    <div class="my-3">
+                        <label class="form-label">Enter number</label>
+                        <input type="text" class="form-control py-2" id="inputnum" placeholder="Enter number 1 to 100 only" aria-describedby="emailHelp">
+
+                    </div>
+
+                    <input type="submit" id="subinp" class="btn btn-primary w-100" value="Guess">
+
+                </form>
+
+                <div class="results mt-4 text-center text-muted">
+                    <p>Previous Guesses : <span id="prevguess"></span></p>
+                    <p>Remaining Guesses : <span id="remaining"><b>10</b></span></p>
+                    <p id="loworhigh"></p>
+                </div>
+
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+    <script src="custom.js"></script>
+</body>
+
+</html>
